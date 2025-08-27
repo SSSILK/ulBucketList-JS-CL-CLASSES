@@ -45,4 +45,12 @@ class Lightbulb {
      * TODO: Create a function named 'getDescription' that returns "The bulb is on" or "The bulb is off", depending on
      * whether 'state' is true or false.
      */
+
+    getDescription(){
+    if (this.state === true){
+        return "The bulb is on"
+    } else {
+        return " The bulb is off"
+    }
+}
 }
